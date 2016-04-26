@@ -1,0 +1,126 @@
+﻿* {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(/admin/assets/images/body_bg.png);
+	font-size:14px;
+	font-family:Microsoft YaHei,'Lato',Calibri,Arial,sans-serif;
+}
+input:-moz-placeholder {
+	color:#369;
+	font-family:Microsoft YaHei;
+}
+input::-webkit-input-placeholder {
+	color:#369;
+	font-family:Microsoft YaHei;
+}
+.container {
+	width:1004px;
+	margin:0 auto;
+	height:717px;
+	background:url(/admin/assets/images/b-top-bg.png) no-repeat top center;
+	position:relative;
+}
+.LoginPanel {
+	width:320px;
+	height:240px;
+	background:-red;
+	position:absolute;
+	left:33%;
+	bottom:0px;
+	padding:0 20px 0 20px;
+}
+.info_list {
+	height:55px;
+	background:-green;
+	margin:1px 0;
+	line-height:55px;
+	position:relative;
+}
+.info_list_f {
+	height:40px;
+	background:-green;
+	margin:1px 0;
+	line-height:40px;
+	position:relative;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.reg_ipt {
+	background:#96bfed;
+	border:1px solid #0f4ea7;
+	border-radius:2px 2px 2px 2px;
+	box-shadow:1px 1px 5px 0 rgba(0,0,0,.4) inset;
+	font-size:14px;
+	height:16px;
+	line-height:16px;
+	padding:9px 0 9px 8px;
+	vertical-align:middle;
+	width:240px;
+	outline:none;
+	color:#000;
+}
+.tit {
+	width:80px;
+	position:absolute;
+	top:2px;
+}
+.des_c {
+	color:#fff;
+	font-family:Microsoft YaHei;
+	font-size:16px;
+}
+.resetBtn,.loginBtn {
+	display:inline-block;
+	width:113px;
+	height:39px;
+	outline:none;
+	border:none;
+}
+.resetBtn {
+	background:url(/admin/assets/images/btn.png) no-repeat 0 -41px;
+}
+.loginBtn {
+	background:url(/admin/assets/images/btn.png) no-repeat 0 0;
+	margin-left:10px;
+}
+.btnCol {
+	padding:0 0 0 74px;
+}
+.yzm {
+	width:100px;
+}
+.ipt input:focus {
+	border:1px solid #083ea4;
+	box-shadow:0 1px 2px rgba(15,82,135,0.25) inset,0 0 10px rgba(255,255,255,0.3);
+	outline:none;
+}
+.error_trips {
+	width:100%;
+	height:30px;
+	line-height:30px;
+	float:left;
+	background:#3070d8;
+	color:#ccc;
+	text-align:center;
+	box-shadow:0 1px 1px rgba(0,0,0,0.1) inset,0 1px 0 rgba(255,255,255,0.15);
+	background:none repeat scroll 0 0 rgba(0,0,0,0.1);
+	border-radius:4px 4px 4px 4px;
+	text-shadow:0 1px 1px rgba(0,0,0,0.15);
+	position:relative;
+}
+.icon {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(/admin/assets/images/error.png) no-repeat;
+	position:absolute;
+	left:80px;
+	top:8px;
+	z-index:99999;
+}

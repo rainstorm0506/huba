@@ -1,0 +1,12 @@
+$key = (string)  $this->getPost("keyword");
+Yii::import('system.extension.splitword.SplitWord');        //导入分词类
+$sp = ClassLoad::Only('SplitWord');/* @var $sp SplitWord */
+$sp->SetSource($key);
+$sp->SetResultType(2);
+$sp->StartAnalysis(true);
+$titleindexs = $sp->GetFinallyResultArray(false);
+
+//关键字 相关联的 crc32编码
+$crc_32 = array();
+ foreach ($titleindexs as $word => $num)
+     $crc_32[] = sprintf('%u' , crc32($word)) . chr(10);

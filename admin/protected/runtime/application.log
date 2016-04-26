@@ -1,0 +1,2438 @@
+2016/04/26 14:44:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css//css/screen.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css//css...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css//css/screen.css
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:44:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css//css/print.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css//css...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css//css/print.css
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css//css/main.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css//css...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css//css/main.css
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('css')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('css')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/css/self.c...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css//css/form.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css//css...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css//css/form.css
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('js')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('js')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/js/Validfo...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('js')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('js')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery-...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/css/screen.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/css/...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/css/screen.css
+---
+2016/04/26 14:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/css/screen.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/css/...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/css/screen.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/Validform_v5...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/css/form.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/css/...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/css/form.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/css/main.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/css/...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/css/main.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/self.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('css/self.css')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/css/print.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/css/...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/css/print.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('js')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('js')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery-...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('css')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('css')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/css/self.c...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('js')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('js')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/js/Validfo...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "page".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('page')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('page')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site.page?view=about
+HTTP_REFERER=http://www.huba.com/admin/site/index
+---
+2016/04/26 14:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/self.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('css/self.css')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/Validform_v5...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contact".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('contact')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('contact')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site.contact
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/Validform_v5...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/self.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('css/self.css')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('login')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('login')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/site.login
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/self.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('css/self.css')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/Validform_v5...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/self.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('css/self.css')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/Validform_v5...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:47:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:47:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/self.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('css/self.css')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/css/self.css
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:47:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('js/Validform_v5...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/js/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/eebf2ee9/jquery-1.9.1.min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/eebf2ee9...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/eebf2ee9/jquery-1.9.1.min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/eebf2ee9/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/eebf2ee9...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/eebf2ee9/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/body_bg.png".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/b...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/body_bg.png
+HTTP_REFERER=http://www.huba.com/admin/assets/css/self.css
+---
+2016/04/26 14:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/b-top-bg.png".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/b...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/b-top-bg.png
+HTTP_REFERER=http://www.huba.com/admin/assets/css/self.css
+---
+2016/04/26 14:51:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/btn.png".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/b...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/btn.png
+HTTP_REFERER=http://www.huba.com/admin/assets/css/self.css
+---
+2016/04/26 14:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/eebf2ee9/jquery.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/eebf2ee9...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/eebf2ee9/jquery.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/eebf2ee9/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/eebf2ee9...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/eebf2ee9/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/eebf2ee9/jquery.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/eebf2ee9...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/eebf2ee9/jquery.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 14:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/eebf2ee9/Validform_v5.3.2_min.js".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/eebf2ee9...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/eebf2ee9/Validform_v5.3.2_min.js
+HTTP_REFERER=http://www.huba.com/admin/
+---
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:30 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:04:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/site
+2016/04/26 16:06:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:31 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:32 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:33 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:33 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:33 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:38 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:46 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:47 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:47 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
+2016/04/26 16:06:47 [error] [php] include(ClassLoad.php): failed to open stream: No such file or directory (D:\WWW\huba\Yii\YiiBase.php:421)
+Stack trace:
+#0 D:\WWW\huba\admin\protected\controllers\SiteController.php(11): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 D:\WWW\huba\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\WWW\huba\Yii\web\filters\CFilterChain.php(133): SiteController->runAction()
+#4 D:\WWW\huba\admin\protected\components\SController.php(19): CFilterChain->run()
+#5 D:\WWW\huba\Yii\web\filters\CInlineFilter.php(58): SiteController->filterCheckLogin()
+#6 D:\WWW\huba\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\WWW\huba\Yii\web\CController.php(291): CFilterChain->run()
+#8 D:\WWW\huba\Yii\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\WWW\huba\Yii\web\CWebApplication.php(282): SiteController->run()
+#10 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#12 D:\WWW\huba\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/
