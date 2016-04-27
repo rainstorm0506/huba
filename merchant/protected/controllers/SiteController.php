@@ -1,39 +1,22 @@
 <?php
 
-class SiteController extends SController
+class SiteController extends MController
 {
-    public $layout='//layouts/column1';
-        /**
-	 * Declares class-based actions.
-	 */
-	public function actions()
-	{
-		return array(
-			// captcha action renders the CAPTCHA image displayed on the contact page
-			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
-			),
-			// page action renders "static" pages stored under 'protected/views/site/pages'
-			// They can be accessed via: index.php?r=site/page&view=FileName
-			'page'=>array(
-				'class'=>'CViewAction',
-			),
-		);
-	}
 
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
 	public function actionIndex()
-	{       
-            //$this->layout = false;
-            $form  = ClassLoad::Only("SLoginForm"); /* @var $form SLoginForm */
-            if($this->isPost() && !empty($_POST['SLoginForm'])){
-                $form->attributes = $this->getPost('SLoginForm');
+	{
+            $this->layout = false;
+            $form  = ClassLoad::Only("MLoginForm"); /* @var $form MLoginForm */
+            if($this->isPost() && !empty($_POST['MLoginForm'])){
+                $form->attributes = $this->getPost('MLoginForm');
                 if($form->validate() && $form->login()){
-                    $this->redirect($this->createUrl('site/home'));
+                    echo "成功!!";
+                    die();
+                    //$this->redirect($this->createUrl('site/home'));
                 }
             }
             $this->renderPartial('login',array(
