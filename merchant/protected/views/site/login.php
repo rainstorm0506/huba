@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title><?php echo CHtml::encode($this->pageTitle);?></title>
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
         <script type="text/javascript" src="<?php echo M_SELF_JS_URL; ?>jquery.js"></script>
         <script type="text/javascript" src="<?php echo M_SELF_JS_URL; ?>jquery.yiiactiveform.js"></script>

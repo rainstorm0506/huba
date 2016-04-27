@@ -1,24 +1,26 @@
 <?php
 class MController extends CController
 {
+    public $pageTitle = '虎吧商户管理平台';
+
     public $layout = '//layouts/column1';
-//	//过滤器
-//	public function filters()
-//	{
-//		return array('checkLogin');
-//	}
-//	
-//	/**
-//	 * 检查是否登录
-//	 * @param	CFilterChain	$filterChain
-//	 */
-//	public function filterCheckLogin(CFilterChain $filterChain)
-//	{
-//		$route = $this->getRoute();
-//		if ($route != 'site/index' && $route != 'site/captcha' && !$this->getUid())
-//			$this->redirect(array('site/index'));
-//		$filterChain->run();
-//	}
+	//过滤器
+	public function filters()
+	{
+		return array('checkLogin');
+	}
+
+	/**
+	 * 检查是否登录
+	 * @param	CFilterChain	$filterChain
+	 */
+	public function filterCheckLogin(CFilterChain $filterChain)
+	{
+		$route = $this->getRoute();
+		if ($route != 'site/index' && $route != 'site/captcha' && $route != 'masync/getVcode' && $route != 'masync/verifyVcode' && !$this->getUid())
+			$this->redirect(array('site/index'));
+		$filterChain->run();
+	}
 	
 	/**
 	 * 将json格式的字符串解析

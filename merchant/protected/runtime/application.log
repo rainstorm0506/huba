@@ -6917,3 +6917,12 @@ Stack trace:
 #16 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
 #17 D:\WWW\huba\merchant\index.php(12): CWebApplication->run()
 REQUEST_URI=/merchant/
+2016/04/27 15:10:49 [error] [php] Declaration of MController::setPageTitle() should be compatible with CController::setPageTitle($value) (D:\WWW\huba\merchant\protected\components\MController.php:3)
+Stack trace:
+#0 D:\WWW\huba\merchant\protected\controllers\SiteController.php(4): spl_autoload_call()
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(354): require()
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(276): CWebApplication->createController()
+#3 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\WWW\huba\merchant\index.php(12): CWebApplication->run()
+REQUEST_URI=/merchant/
