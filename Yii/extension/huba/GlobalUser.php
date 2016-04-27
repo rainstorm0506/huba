@@ -24,7 +24,7 @@ class GlobalUser {
 	 */
 	public static function hashPassword($password)
 	{
-		return sha1(hash('huba' , $password));
-		#return password_hash($password , PASSWORD_DEFAULT);
+                return md5("huba".$password);
+		//return sha1(hash('huba' , $password));
 	}    
 }

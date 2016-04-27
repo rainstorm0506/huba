@@ -2,35 +2,50 @@
 
 class SiteController extends SController
 {
-        /*
-         * 平台默认登陆 页面
-         */
-	public function actionIndex()
+	/**
+	 * Declares class-based actions.
+	 */
+	public function actions()
 	{
-            echo 12131;
-            die();
+		return array(
+			// captcha action renders the CAPTCHA image displayed on the contact page
+			'captcha'=>array(
+				'class'=>'CCaptchaAction',
+				'backColor'=>0xFFFFFF,
+			),
+			// page action renders "static" pages stored under 'protected/views/site/pages'
+			// They can be accessed via: index.php?r=site/page&view=FileName
+			'page'=>array(
+				'class'=>'CViewAction',
+			),
+		);
+	}
+
+	/**
+	 * This is the default 'index' action that is invoked
+	 * when an action is not explicitly requested by users.
+	 */
+	public function actionIndex()
+	{       
             $this->layout = false;
-            //$form = ClassLoad::Only("SLoginForm");  /* @var $form SLoginForm */
-            if($this->isPost()){
-                
+            $form  = ClassLoad::Only("SLoginForm"); /* @var $form SLoginForm */
+            if($this->isPost() && !empty($_POST['SLoginForm'])){
+                $form->attributes = $this->getPost('SLoginForm');
+                if($form->validate() && $form->login()){
+                    $this->redirect($this->createUrl('site/home'));
+                }
             }
-            echo 1231;
-            echo "<pre>";
-            die(var_dump($form));
-            $this->render('login',array(
-                'form'=>$form
+            $this->renderPartial('login',array(
+                'model'=>$form
             ));
 	}
-        /*
-         * 展示 平台后台页面
-         */
         public function actionHome()
         {
-            echo "home";
+            echo $this->getUid();
             die();
         }
         /**
-	 * 错误处理页面
+	 * This is the action to handle external exceptions.
 	 */
 	public function actionError()
 	{
@@ -41,6 +56,17 @@ class SiteController extends SController
 			else
 				$this->render('error', $error);
 		}
+	}
+
+
+	/**
+	 * Displays the login page
+	 */
+	public function actionLogin()
+	{
+            $this->layout = false;
+            // display the login form
+            $this->render('login');
 	}
 
 	/**

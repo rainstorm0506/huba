@@ -1,24 +1,23 @@
 <?php
 class SController extends CController
 {
-	//过滤器
-	public function filters()
-	{
-		return array('checkLogin');
-	}
-	
-	/**
-	 * 检查是否登录
-	 * @param	CFilterChain	$filterChain
-	 */
-	public function filterCheckLogin(CFilterChain $filterChain)
-	{
-            return true;
+//	//过滤器
+//	public function filters()
+//	{
+//		return array('checkLogin');
+//	}
+//	
+//	/**
+//	 * 检查是否登录
+//	 * @param	CFilterChain	$filterChain
+//	 */
+//	public function filterCheckLogin(CFilterChain $filterChain)
+//	{
 //		$route = $this->getRoute();
 //		if ($route != 'site/index' && $route != 'site/captcha' && !$this->getUid())
 //			$this->redirect(array('site/index'));
 //		$filterChain->run();
-	}
+//	}
 	
 	/**
 	 * 将json格式的字符串解析
@@ -140,52 +139,6 @@ class SController extends CController
 	}
 	
 	/**
-	 * 创建到前台的URL
-	 * @param		string		$route			控制器/方法
-	 * @param		array		$params			参数
-	 * @param		string		$ampersand		参数链接符
-	 * @return		string
-	 */
-	public function createFrontUrl($route , array $params = array() , $ampersand = '&')
-	{
-		return str_replace('/supervise/' , '/' , Yii::app()->createUrl($route , $params , $ampersand));
-	}
-	
-	/**
-	 * 检查登录用户的权限
-	 * @param	string		$execKey		操作的key
-	 * @param	boolean		$show			显示错误页面
-	 */
-	public function checkUserPurview($execKey , $show = true , $message = '你没有操作的权限!' , $page = 'noPurview')
-	{
-		static $session = null;
-		if ($session === null)
-		{
-			$session = Yii::app()->session;
-		}
-		$purviews = isset($session[self::PURV]['purviews']) ? $session[self::PURV]['purviews'] : array();
-		$purviews = empty($purviews[$execKey]);
-		if ($show && $purviews)
-			$this->_viewsEnd($message , 'application.views.layouts.'.$page);
-		return !$purviews;
-	}
-	
-	/**
-	 * 获得栏位是否有显示的权限
-	 * @param	int		$id		栏位ID
-	 */
-	public function getMenuShow($id)
-	{
-		static $session = null;
-		if ($session === null)
-		{
-			$session = Yii::app()->session;
-		}
-		$fields = isset($session[self::PURV]['fields']) ? $session[self::PURV]['fields'] : array();
-		return !empty($fields[$id]);
-	}
-	
-	/**
 	 * 删除缓存数据
 	 * @param	string/array	$cacheName		缓存名称
 	 */
@@ -219,6 +172,7 @@ class SController extends CController
 		}else{
 			$return['message'] = is_string($mixed) ? $mixed : '未知错误';
 		}
+                header("Content-Type:application/json;charset=utf-8");
 		Yii::app()->end(json_encode($return));
 	}
 }

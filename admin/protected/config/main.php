@@ -1,5 +1,5 @@
 <?php
-$path = dirname ( __FILE__ ) . '/../../../';
+
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
@@ -7,16 +7,16 @@ $path = dirname ( __FILE__ ) . '/../../../';
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'虎吧平台后台管理系统',
+	'name'=>'虎吧平台管理',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
 
 	// autoloading model and component classes
-	'import' => array (
-		'system.extensions.ebg.*',
-		'application.form.*',
+	'import'=>array(
+                'system.extension.huba.*',
 		'application.models.*',
+		'application.form.*',
 		'application.components.*',
 	),
 
@@ -39,43 +39,36 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		'urlManager'=>array(
+                'urlManager'=>array(
 			'urlFormat'=>'path',
-                        'showScriptName' => false,
-			'rules' => array (
-				''					=> 'site/index',
-				'<controller:\w+>'			=> '<controller>',
-				'<controller:\w+>.<action:\w+>'		=> '<controller>/<action>'
-			)
-		),
+			'rules'=>array(
+				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+			),
+		),		
 		// uncomment the following to use a MySQL database
-		/*
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=localhost;dbname=huba',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'root',
 			'charset' => 'utf8',
 		),
-		*/
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
-		'log'=>array(
-			'class'=>'CLogRouter',
-			'routes'=>array(
-				array(
-					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+		// 日志
+		'log' => array (
+			'class' => 'CLogRouter',
+			'routes' => array (
+				array (
+					'class' => 'CFileLogRoute',
+					'levels' => 'error, warning'
 				),
-				// uncomment the following to show log messages on web pages
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
-			),
+				array ('class' => 'CWebLogRoute')
+			)
 		),
 	),
 

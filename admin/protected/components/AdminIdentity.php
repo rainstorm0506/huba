@@ -20,8 +20,8 @@ class AdminIdentity extends CUserIdentity{
         }else if($verify && !GlobalUser::validatePassword($this->password, $user_info['pwd'])){
             $this->errorCode = self::ERROR_PASSWORD_INVALID;
         }else{
-            $this->_id = $info['id'];
-            $this->username = $user_info;
+            $this->_id = $user_info['id'];
+            $this->username = $user_info['account'];
             $this->errorCode = self::ERROR_NONE;            
         }
         return $this->errorCode;
