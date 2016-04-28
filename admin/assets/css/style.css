@@ -1,6 +1,5 @@
 body{
 	margin:0px;
-
 }
 
 html {
@@ -262,7 +261,10 @@ font-size:12px;
 
 /**/
 
-#datatable tr{wfsr:expression(this.bgColor=this.rowIndex%2?'#ffffff':'#FDFAF0')}
+/*#datatable tr{wfsr:expression(this.bgColor=this.rowIndex%2?'#ffffff':'#FDFAF0')}*/
+#datatable tr{wfsr:'#ffffff'}
+/*#datatable tr{wfsr:expression(this.bgColor=this.rowIndex%2?'#ffffff':'#FDFAF0')}*/
+#datatable tr{wfsr:'#ffffff'}
 #datatable td{font-size:11px;font-family:verdana;height:19px}
 #datatable a:link,a:visited{
  text-decoration:none;
@@ -401,7 +403,6 @@ div.HackBox {
   margin:0;
   line-height:1.5em;
   font-size:12px;
-  /*height:expression(document.body.clientHeight-80);*/
 }
 
 .sumfont{
@@ -438,11 +439,6 @@ font-weight: bold;
 }
 .mainlinkbg{
     background-color: #ffffff;
-	/*BORDER-RIGHT: #A3C7E2 1px solid;
-    BORDER-TOP: #A3C7E2 0px solid;
-    FONT-SIZE: 9pt;
-    BORDER-LEFT: #A3C7E2 1px solid;
-    BORDER-BOTTOM:#A3C7E2 1px solid;*/
 }
 
 
@@ -460,7 +456,6 @@ font-weight: bold;
 	width:390px;
 	float:right;
 	padding:3px 0px 0px 5px;
-	/*background: url(/admin/assets/houtai/images/dott.gif) transparent no-repeat 3px 7px;*/
 	height:17px;
 	overflow : hidden;
 	text-overflow:ellipsis;
@@ -476,7 +471,7 @@ font-weight: bold;
 .main li a{
 	float:left;
 	width:310px;
-	text-overflow:ellipsis;/*���ֳ�������ʡ�Ժ�*/
+	text-overflow:ellipsis;
 	white-space:nowrap;
 	overflow : hidden;
 }
@@ -500,10 +495,7 @@ div{
 	  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-/*��ϵ�CSS*/
-
 .tablestyle_title{
-	/*height: 20px; font-style: normal; font-variant: normal; font-weight: bold; font-size: 16px;letter-spacing: 2px; text-align: middle; border-top: 2px solid #ff7300; padding-left: 10px; background-color: #f0f0f0;text-align:center;*/
 	background:#6795B4;
 	padding:5px;
 	text-align:left;
