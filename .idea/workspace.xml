@@ -23,76 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merchant/protected/controllers/SiteController.php">
+      <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/protected/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="542" selection-end="542" vertical-scroll-proportion="-11.764706" vertical-offset="0" max-vertical-offset="1700">
+            <state line="24" column="16" selection-start="491" selection-end="491" vertical-scroll-proportion="-17.647058" vertical-offset="0" max-vertical-offset="925">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merchant/protected/config/main.php">
+      <file leaf-file-name="css.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/assets/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="472" selection-end="472" vertical-scroll-proportion="-14.705882" vertical-offset="0" max-vertical-offset="1700">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merchant/protected/views/site/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="56" selection-start="81" selection-end="90" vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="2775">
+            <state line="26" column="15" selection-start="469" selection-end="469" vertical-scroll-proportion="0.20565833" vertical-offset="461" max-vertical-offset="20350">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#p#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1461810852223" expanded="true" signature="3488:3536" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <file leaf-file-name="SController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/protected/components/SController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="52" selection-start="1005" selection-end="1021" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1625">
+            <state line="17" column="89" selection-start="396" selection-end="396" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="4600">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/protected/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="50" selection-start="228" selection-end="228" vertical-scroll-proportion="-8.088235" vertical-offset="0" max-vertical-offset="2125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/merchant/protected/components/MController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="50" selection-end="81" vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="4650">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yiilite.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Yii/yiilite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3338" column="23" selection-start="98586" selection-end="98595" vertical-scroll-proportion="-14.117647" vertical-offset="82470" max-vertical-offset="249850">
-              <folding>
-                <element signature="n#run#0;n#CController#0;n#!!top" expanded="false" />
-                <marker date="1356893580000" expanded="true" signature="132635:132648" placeholder="/*...*/" />
-                <marker date="1356893580000" expanded="true" signature="132659:132666" placeholder="/*...*/" />
-                <marker date="1356893580000" expanded="true" signature="248734:248791" placeholder="SELECT MAX(`..." />
-                <marker date="1356893580000" expanded="true" signature="248953:249020" placeholder="UPDATE sqlit..." />
-                <marker date="1356893580000" expanded="true" signature="249248:249325" placeholder="SELECT DISTI..sqlite_master..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,10 +70,8 @@
         <option value="$PROJECT_DIR$/protected/controllers/GlobalController.php" />
         <option value="$PROJECT_DIR$/protected/config/constant.php" />
         <option value="$PROJECT_DIR$/assets/css/default.css" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/assets/js/handlers.js" />
         <option value="$PROJECT_DIR$/Yii/extension/huba/GlobalSplitWord.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/merchant/protected/config/constant.php" />
         <option value="$PROJECT_DIR$/merchant/protected/config/main.php" />
         <option value="$PROJECT_DIR$/merchant/protected/components/MAdminIdentity.php" />
@@ -136,6 +89,17 @@
         <option value="$PROJECT_DIR$/admin/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/merchant/protected/views/site/login.php" />
         <option value="$PROJECT_DIR$/merchant/protected/components/MController.php" />
+        <option value="$PROJECT_DIR$/Yii/extension/huba/SmsNote.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/AsyncController.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="D:/公司文件/虎吧后台管理系统/css/css.css" />
+        <option value="$PROJECT_DIR$/admin/assets/css/css.css" />
+        <option value="$PROJECT_DIR$/admin/protected/views/home/left.php" />
+        <option value="$PROJECT_DIR$/admin/protected/views/home/index.php" />
+        <option value="$PROJECT_DIR$/admin/protected/views/home/right.php" />
+        <option value="$PROJECT_DIR$/admin/protected/views/home/top.php" />
+        <option value="$PROJECT_DIR$/admin/protected/controllers/HomeController.php" />
       </list>
     </option>
   </component>
@@ -200,6 +164,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="huba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -211,6 +193,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="huba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -232,6 +218,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="protected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -240,7 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,39 +244,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="merchant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="merchant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huba" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="merchant" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -294,7 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,15 +266,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="merchant" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,6 +288,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WWW\huba\admin\assets\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -377,14 +337,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -404,65 +364,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="3321">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/constant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AsyncController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="50" selection-start="1038" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="5751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/VerifCodeIntAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="28" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0" vertical-offset="422" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="31" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="3240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/constant.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AsyncController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="6291" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/VerifCodeIntAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="373" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="945" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Yii/web/widgets/captcha/CCaptchaAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="9207" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="22" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="3132">
@@ -542,30 +443,6 @@
         <state line="10" column="33" selection-start="0" selection-end="745" vertical-scroll-proportion="-7.352941" vertical-offset="0" max-vertical-offset="875" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="1746" selection-end="1746" vertical-scroll-proportion="0.14915255" vertical-offset="893" max-vertical-offset="1825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="896" selection-end="896" vertical-scroll-proportion="0.81920904" vertical-offset="150" max-vertical-offset="2900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/WebController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="31" selection-start="5277" selection-end="5277" vertical-scroll-proportion="0.8316384" vertical-offset="4964" max-vertical-offset="5925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AsyncController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="25" selection-start="3599" selection-end="3599" vertical-scroll-proportion="0.14124294" vertical-offset="3550" max-vertical-offset="5325" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/merchant/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="46" selection-start="336" selection-end="344" vertical-scroll-proportion="-6.617647" vertical-offset="0" max-vertical-offset="425" />
@@ -573,114 +450,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yii/web/auth/CUserIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="884" selection-end="884" vertical-scroll-proportion="0.3457627" vertical-offset="169" max-vertical-offset="2000">
-          <folding />
-        </state>
+        <state line="26" column="6" selection-start="884" selection-end="884" vertical-scroll-proportion="0.3457627" vertical-offset="169" max-vertical-offset="2000" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yii/web/CFormModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="6" selection-start="764" selection-end="764" vertical-scroll-proportion="0.3457627" vertical-offset="144" max-vertical-offset="1900">
-          <folding />
-        </state>
+        <state line="25" column="6" selection-start="764" selection-end="764" vertical-scroll-proportion="0.3457627" vertical-offset="144" max-vertical-offset="1900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/views/layouts/column1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/components/MModels.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="145" selection-end="145" vertical-scroll-proportion="0.20068808" vertical-offset="0" max-vertical-offset="6650">
-          <folding />
-        </state>
+        <state line="7" column="6" selection-start="145" selection-end="145" vertical-scroll-proportion="0.20068808" vertical-offset="0" max-vertical-offset="6650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/components/MForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="12" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1650">
-          <folding />
-        </state>
+        <state line="1" column="11" selection-start="12" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/components/MVerifyCodeAction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="46" selection-start="53" selection-end="53" vertical-scroll-proportion="0.05793743" vertical-offset="0" max-vertical-offset="875">
-          <folding />
-        </state>
+        <state line="2" column="46" selection-start="53" selection-end="53" vertical-scroll-proportion="0.05793743" vertical-offset="0" max-vertical-offset="875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/assets/css/self.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3275">
-          <folding />
-        </state>
+        <state line="9" column="24" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/components/MAdminIdentity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="420" selection-end="428" vertical-scroll-proportion="0.3322034" vertical-offset="81" max-vertical-offset="1000">
-          <folding />
-        </state>
+        <state line="15" column="60" selection-start="420" selection-end="428" vertical-scroll-proportion="0.3322034" vertical-offset="81" max-vertical-offset="1000" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1625">
-          <folding />
-        </state>
+        <state line="18" column="7" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/models/Merchant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="91" selection-end="91" vertical-scroll-proportion="0.16949153" vertical-offset="0" max-vertical-offset="885">
-          <folding>
-            <marker date="1461738895747" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..merchant..." />
-          </folding>
-        </state>
+        <state line="6" column="14" selection-start="91" selection-end="91" vertical-scroll-proportion="0.16949153" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/form/MLoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="76" selection-start="584" selection-end="584" vertical-scroll-proportion="0.5084746" vertical-offset="75" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="21" column="76" selection-start="584" selection-end="584" vertical-scroll-proportion="0.5084746" vertical-offset="75" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/controllers/MasyncController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="7" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.519774" vertical-offset="165" max-vertical-offset="1050">
-          <folding>
-            <element signature="n#actionGetVcode#0;n#MasyncController#0;n#!!top" expanded="false" />
-            <element signature="n#actionVerifyVcode#0;n#MasyncController#0;n#!!top" expanded="false" />
-            <element signature="n#actionQrcode#0;n#MasyncController#0;n#!!top" expanded="false" />
-            <element signature="n#actionVerifyPhone#0;n#MasyncController#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="70" column="7" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.519774" vertical-offset="165" max-vertical-offset="1050" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="228" selection-end="228" vertical-scroll-proportion="-8.088235" vertical-offset="0" max-vertical-offset="2125">
-          <folding />
-        </state>
+        <state line="11" column="50" selection-start="228" selection-end="228" vertical-scroll-proportion="-8.088235" vertical-offset="0" max-vertical-offset="2125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="52" selection-start="1005" selection-end="1021" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1625">
-          <folding />
-        </state>
+        <state line="17" column="52" selection-start="1005" selection-end="1021" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="1625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/config/constant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="88" selection-end="97" vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
+        <state line="3" column="17" selection-start="88" selection-end="97" vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Yii/yiilite.php">
@@ -688,44 +528,156 @@
         <state line="3338" column="23" selection-start="98586" selection-end="98595" vertical-scroll-proportion="-14.117647" vertical-offset="82470" max-vertical-offset="249850">
           <folding>
             <element signature="n#run#0;n#CController#0;n#!!top" expanded="false" />
-            <marker date="1356893580000" expanded="true" signature="132635:132648" placeholder="/*...*/" />
-            <marker date="1356893580000" expanded="true" signature="132659:132666" placeholder="/*...*/" />
-            <marker date="1356893580000" expanded="true" signature="248734:248791" placeholder="SELECT MAX(`..." />
-            <marker date="1356893580000" expanded="true" signature="248953:249020" placeholder="UPDATE sqlit..." />
-            <marker date="1356893580000" expanded="true" signature="249248:249325" placeholder="SELECT DISTI..sqlite_master..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merchant/protected/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="542" selection-end="542" vertical-scroll-proportion="-11.764706" vertical-offset="0" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merchant/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="472" selection-end="472" vertical-scroll-proportion="-14.705882" vertical-offset="0" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merchant/protected/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="56" selection-start="81" selection-end="90" vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="2775">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#1;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/merchant/protected/components/MController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="50" selection-end="81" vertical-scroll-proportion="0.084745765" vertical-offset="0" max-vertical-offset="4650">
+        <state line="3" column="4" selection-start="50" selection-end="81" vertical-scroll-proportion="4.4117646" vertical-offset="225" max-vertical-offset="4650">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merchant/protected/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="56" selection-start="81" selection-end="90" vertical-scroll-proportion="0.086009175" vertical-offset="0" max-vertical-offset="2775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merchant/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="35" selection-start="472" selection-end="472" vertical-scroll-proportion="0.56497175" vertical-offset="0" max-vertical-offset="1700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merchant/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="542" selection-end="542" vertical-scroll-proportion="0.4519774" vertical-offset="0" max-vertical-offset="1700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yii/extension/huba/SmsNote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="2200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="736" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/WebController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="45" selection-start="4259" selection-end="4265" vertical-scroll-proportion="0.0" vertical-offset="4419" max-vertical-offset="5925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="6" selection-start="3759" selection-end="3759" vertical-scroll-proportion="-9.8529415" vertical-offset="1790" max-vertical-offset="3500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/AsyncController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="365" selection-end="365" vertical-scroll-proportion="-11.058824" vertical-offset="24" max-vertical-offset="3550">
+          <folding>
+            <element signature="n#actionGetVcdoe#0;n#AsyncController#0;n#!!top" expanded="false" />
+            <element signature="n#actionVerifyVcode#0;n#AsyncController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/components/SController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="89" selection-start="396" selection-end="396" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="4600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/公司文件/虎吧后台管理系统/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20350">
+          <folding>
+            <marker date="1461808126792" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/css/self.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="393" selection-end="407" vertical-scroll-proportion="0.57127315" vertical-offset="0" max-vertical-offset="3350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="61" selection-start="415" selection-end="439" vertical-scroll-proportion="0.19774011" vertical-offset="0" max-vertical-offset="3075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/views/home/right.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="70" selection-start="880" selection-end="880" vertical-scroll-proportion="0.63276833" vertical-offset="65" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/views/home/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="551" column="98" selection-start="23820" selection-end="23820" vertical-scroll-proportion="15.20113" vertical-offset="322" max-vertical-offset="14325">
+          <folding>
+            <element signature="n#style#0;n#table#1;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#2;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#3;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#5;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#7;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#9;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#11;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#13;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#14;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#15;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#16;n#TD#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/views/home/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="60" selection-start="697" selection-end="697" vertical-scroll-proportion="0.53672314" vertical-offset="0" max-vertical-offset="885">
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="77" selection-start="767" selection-end="767" vertical-scroll-proportion="0.39548022" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/protected/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="491" selection-end="491" vertical-scroll-proportion="-17.647058" vertical-offset="0" max-vertical-offset="925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="15" selection-start="469" selection-end="469" vertical-scroll-proportion="0.20565833" vertical-offset="461" max-vertical-offset="20350">
+          <folding>
+            <marker date="1461810852223" expanded="true" signature="3488:3536" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

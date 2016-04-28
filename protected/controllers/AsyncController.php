@@ -7,7 +7,60 @@
 class AsyncController extends WebController
 {
 	private $vxcode = array('vmember', 'venterprise', 'vmerchant', 'member' , 'merchant' , 'find');
-	
+    # 短信验证码过期时间 , 5分钟
+    const SMSEXPIRE = 300;
+
+    private $sessKey = array(
+        1	=> 'sign',		#注册
+        2	=> 'find',		#找回密码
+        3	=> 'normal'	#正常情况发送短信
+    );
+    //异步 发送短信
+    public function actionSendSms()
+    {
+        $mobile = trim((string)$this->getPost("phone"));
+        $type = trim((string)$this->getPost("type"));
+
+        $sms_code = SmsNote::random();
+        $sessKey = $this->sessKey[$type];
+        $time    =  time();
+        /*******    测试代码(不发送短信)    ********/
+        if ((int)$this->getPost('test') === 1)
+        {
+            $session = Yii::app()->session;
+            $sx = array();
+            if (isset($session['smsCode']))
+            {
+                $sx = new ArrayObject($session['smsCode']);
+                $sx = $sx->getArrayCopy();
+            }
+
+            $sx[$sessKey] = array('phone'=>$mobile , 'verCode'=>$sms_code , 'sendTime'=>$time , 'expire'=>$time+self::SMSEXPIRE , 'verifyTime'=>0);
+            $session['smsCode'] = $sx;
+            $this->jsonOutput(0 , array('vcode' => $sms_code));
+            exit;
+        }
+        //$res = SmsNote::send_sms($mobile,$sms_code);
+
+    }
+    //异步 验证短信验证码
+    public function actionCheckCode()
+    {
+        $code = trim((string)$this->getPost('sms_code'));
+        $type = trim((string)$this->getPost("type"));
+        $sessKey = $this->sessKey[$type];   //验证码的 类型
+        
+        $session = Yii::app()->session;
+
+        if(time() - $session['smsCode'][$sessKey]['sendTime']>self::SMSEXPIRE){
+            $this->jsonOutput(2,"短信验证码已经过期");
+        }else if($session['smsCode'][$sessKey]['verCode']!=$code){
+            $this->jsonOutput(1,"短信验证码不正确");
+        }else{
+            $this->jsonOutput(0);
+        }
+        Yii::app()->end();
+    }
 	//图形验证码
 	public function actionGetVcdoe()
 	{
@@ -103,85 +156,6 @@ class AsyncController extends WebController
 			$this->jsonOutput(2 , '此号码已注册!');
 		
 		$this->jsonOutput(0);
-	}
-	
-	/**
-	 * 获得地区数据
-	 * 
-	 * @param		GET		int		dictOneId			第一层ID
-	 * @param		GET		int		dictTwoId			第二层ID
-	 * @param		GET		int		dictThreeId			第三层ID
-	 */
-	public function actionDictChild()
-	{
-		$oneId = (int)$this->getQuery('dictOneId');
-		$twoId = (int)$this->getQuery('dictTwoId');
-		$threeId = (int)$this->getQuery('dictThreeId');
-		
-		$this->jsonOutput(0 , GlobalDict::getUnidList($oneId , $twoId , $threeId));
-	}
-	
-	/**
-	 * 收藏店铺
-	 * 
-	 * @param		GET		int		id		ID
-	 * @param		GET		int		type	类别
-	 */
-	public function actionCollects()
-	{
-		$type = (int)$this->getQuery('type');
-		if ($type < 1 || $type > 3)
-			$this->jsonOutput(1 , '类别错误!');
-		
-		if (($id = (int)$this->getQuery('id')) <= 0)
-			$this->jsonOutput(2 , 'ID错误');
-		
-		if (!$uid = $this->getUid())
-			$this->jsonOutput(3 , '请登录后操作!');
-		
-		$model = ClassLoad::Only('Store');/* @var $model Store */
-		if (($rt = $model->collects($type , $id , $uid)) === 1)
-			$this->jsonOutput(0 , array('type'=>$type , 'join'=>true));
-		elseif ($rt == -1)
-			$this->jsonOutput(0 , array('type'=>$type , 'join'=>false));
-		else
-			$this->jsonOutput(3 , '操作失败!');
-	}
-	
-	/**
-	 * 商品点赞
-	 * 
-	 * @param		int		gid			商品ID
-	 * @param		int		type		类别 , 1=商品 , 2=二手 , 3=积分 , 4=店铺
-	 */
-	public function actionUserPraise()
-	{
-		if (!$uid = $this->getUid())
-			$this->jsonOutput(1 , '请登录后操作!');
-		
-		if (!$gid = (int)$this->getQuery('gid'))
-			$this->jsonOutput(2 , '商品ID错误');
-		
-		if (!$type = (int)$this->getQuery('type'))
-			$this->jsonOutput(3 , '类别错误');
-		
-		$models = ClassLoad::Only('Goods');/* @var $models Goods */
-		if (($ret = $models->praise($gid , $type , $uid)) > 0)
-		{
-			GlobalGoods::getNewGoods(0 , 0 , true);
-			$this->jsonOutput(0 , array('join'=>true));
-		}elseif($ret == -1){
-			$this->jsonOutput(0 , array('join'=>false));
-		}
-		$this->jsonOutput(4 , '程序异常!');
-	}
-	
-	public function actionUserAddress()
-	{
-		$model = ClassLoad::Only('Cart');/* @var $model Cart */
-		$this->renderPartial('userAddress' , array(
-			'address' => $model->getUserAddressList($this->getUid()),
-		));
 	}
 	
 	//设为默认地址

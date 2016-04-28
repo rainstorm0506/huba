@@ -29,7 +29,14 @@ should you have any questions.</p>
 <p><input type="button" id="tset"></p>
 <p><img src="<?php echo $this->createUrl('async/getVcdoe',array('type'=>'member'));?>" onclick="this.src=this.src+'&id='+Math.random(0,1)">1231</p>
 
-
+<p>
+    <button id="test_btn">测试短信</button>
+<form action="<?php echo $this->createUrl('async/checkCode');?>">
+    验证码:<input type="text" name="codes" id="sms_code">
+    <input type="submit" value="确认验证码" id="subBtn">
+</form>
+</p>
+<?php echo "<hr/>";?>
 <form method="post" action="<?php echo $this->createUrl('site/index');?>">
     验证码:<input type="text" name="code">
     <input type="submit" id="sub" value="点击提交">
@@ -94,5 +101,34 @@ should you have any questions.</p>
         //console.log(flag);
         return false;
         return flag==true ? true : false;
+    });
+</script>
+
+<script type="text/javascript">
+    $("#test_btn").click(function(){
+        $.post(
+            "<?php echo $this->createUrl('async/sendSms');?>",
+            {phone:"18650215426",type:3,test:1},
+            function(data){
+                console.log(typeof(data));
+            }
+        );
+    });
+    //验证短信 验证码
+    $("#subBtn").click(function(){
+        var code = $("#sms_code").val();
+        $.post(
+            "<?php echo $this->createUrl('async/checkCode');?>",
+            {sms_code:code,type:3},
+            function(data){
+                if(data.code!=0){
+                    alert(data.message);
+                }else{
+                    alert("正确");
+                    console.log(data);
+                }
+            }
+        );
+        return false;
     });
 </script>

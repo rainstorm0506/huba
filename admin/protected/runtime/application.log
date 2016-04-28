@@ -6789,3 +6789,237 @@ Stack trace:
 #4 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
 #5 D:\WWW\huba\admin\index.php(12): CWebApplication->run()
 REQUEST_URI=/admin/index.php/site/home
+2016/04/28 10:23:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/screen.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/scre...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/screen.css
+HTTP_REFERER=http://www.huba.com/admin/home/index
+---
+2016/04/28 10:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/main.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/main...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/main.css
+HTTP_REFERER=http://www.huba.com/admin/home/index
+---
+2016/04/28 10:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/print.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/prin...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/print.css
+HTTP_REFERER=http://www.huba.com/admin/home/index
+---
+2016/04/28 10:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/css/main.css".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/css/main...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/css/main.css
+---
+2016/04/28 10:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ledt".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('ledt')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('ledt')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('home/ledt')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/home/ledt
+---
+2016/04/28 10:32:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ico02.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/ico02.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:33:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ico06.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/ico06.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:33:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/nav02.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/n...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/nav02.gif
+HTTP_REFERER=http://www.huba.com/admin/assets/css/css.css
+---
+2016/04/28 10:33:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ico04.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/ico04.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:33:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/left.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/left.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:33:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/nav01.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/n...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/nav01.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ico04.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/ico04.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ico06.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/ico06.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/ico02.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/ico02.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/left.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/l...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/left.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/nav01.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/n...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/nav01.gif
+HTTP_REFERER=http://www.huba.com/admin/home/left
+---
+2016/04/28 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/houtai/images/nav02.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/houtai/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/houtai/images/nav02.gif
+HTTP_REFERER=http://www.huba.com/admin/assets/css/css.css
+---
+2016/04/28 10:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/houtai/images/nav02.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/houtai/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/houtai/images/nav02.gif
+HTTP_REFERER=http://www.huba.com/admin/assets/css/css.css
+---
+2016/04/28 10:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "top".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('top')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('top')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('home/top')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/index.php/home/top
+HTTP_REFERER=http://www.huba.com/admin/home/index
+---
+2016/04/28 10:38:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/images/welcome.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/images/w...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/images/welcome.gif
+HTTP_REFERER=http://www.huba.com/admin/index.php/home/right
+---
+2016/04/28 10:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "top".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('top')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('top')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('home/top')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/index.php/home/top
+HTTP_REFERER=http://www.huba.com/admin/home/index
+---
+2016/04/28 10:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "top".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('top')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('top')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('home/top')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/index.php/home/top
+HTTP_REFERER=http://www.huba.com/admin/home/index
+---
+2016/04/28 10:40:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "top".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('top')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('top')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('home/top')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/home/top
+---
+2016/04/28 10:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/houtai/images/nav02.gif".' in D:\WWW\huba\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('assets/houtai/i...')
+#1 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/assets/houtai/images/nav02.gif
+HTTP_REFERER=http://www.huba.com/admin/assets/css/css.css
+---
+2016/04/28 10:42:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "addrenwu.htm".' in D:\WWW\huba\Yii\web\CController.php:483
+Stack trace:
+#0 D:\WWW\huba\Yii\web\CController.php(270): CController->missingAction('addrenwu.htm')
+#1 D:\WWW\huba\Yii\web\CWebApplication.php(282): CController->run('addrenwu.htm')
+#2 D:\WWW\huba\Yii\web\CWebApplication.php(141): CWebApplication->runController('home/addrenwu.h...')
+#3 D:\WWW\huba\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\WWW\huba\admin\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/index.php/home/addrenwu.htm
+HTTP_REFERER=http://www.huba.com/admin/index.php/home/left
+---

@@ -51,6 +51,9 @@ input::-webkit-input-placeholder {
 .fr {
 	float:right;
 }
+.fl100{
+    padding-left: 100px;
+}
 .reg_ipt {
 	background:#96bfed;
 	border:1px solid #0f4ea7;
@@ -90,7 +93,7 @@ input::-webkit-input-placeholder {
 	margin-left:10px;
 }
 .btnCol {
-	padding:0 0 0 74px;
+	padding:0 0 0 100px;
 }
 .yzm {
 	width:100px;

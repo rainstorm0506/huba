@@ -10,6 +10,19 @@
             .info_list{
                 width: 350px;
             }
+            .info_list{
+                width: 350px;
+            }
+            .in_p{
+                display: inline-block;
+                float: left;
+            }
+            .img_p{
+                display: inline-block;
+                float: left;
+                padding-top: 10px;
+                padding-left: 10px;
+            }            
         </style>
     </head>
     <body>
@@ -33,11 +46,11 @@
                         array('class'=>'registerform')
                     ); ?>                    
                     <div class="info_list">
-                        <div class="tit ">
+                        <div class="tit">
                             <span class="des_c">登录名：</span>
                         </div>
 
-                        <div class="ipt fr">
+                        <div class="ipt fl fl100">
                             <?php echo $form->textField($model,"name",array('class'=>'reg_ipt ml-80','maxlength'=>18,'placeholder'=>'请输入用户名'));?>
                             <b><?php echo $form->error($model,"name");?></b>
                         </div>
@@ -48,7 +61,7 @@
                             <span class="des_c">密　码：</span>
                         </div>
 
-                        <div class="ipt fr">
+                        <div class="ipt fl fl100">
                             <span>
                                 <?php echo $form->passwordField($model,"pwd",array('class'=>"reg_ipt ml-80",'maxlength'=>18,'placeholder'=>'请输入密码'));?>
                                 <b><?php echo $form->error($model,'pwd');?></b>
@@ -61,12 +74,14 @@
                             <span class="des_c">验 证 码：</span>
                         </div>
 
-                        <div class="ipt fr">
-                            <p>
+                        <div class="ipt fl fl100" style="width: 650px;">
+                            <p class="in_p">
                                 <?php echo $form->textField($model,"codes",array('class'=>"reg_ipt ml-80",'maxlength'=>18,'id'=>'codes','placeholder'=>'请输入验证码'));?>
                                 <b><?php echo $form->error($model,'codes');?></b>
                             </p>
-                            <p style="display: inline-block;float: left;"><img src="<?php echo $this->createUrl('masync/getVcode',array('type'=>'admin'));?>" onclick="this.src=this.src+'&id='+Math.random(0,1)" style="cursor: pointer; "></p>
+                            <p class="img_p">
+                                <img src="<?php echo $this->createUrl('masync/getVcode',array('type'=>'admin'));?>" onclick="this.src=this.src+'&id='+Math.random(0,1)" style="cursor: pointer; ">
+                            </p>
                         </div>    
                     </div>
                                           
