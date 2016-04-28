@@ -4,7 +4,7 @@
  * 后台首页 展现
  * @author Administrator
  */
-class HomeController extends CController{
+class HomeController extends SController{
     public function actionIndex()
     {
         $this->layout = false;

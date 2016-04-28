@@ -1,0 +1,5 @@
+$arr = array('asda',"123","dasda");
+//缓存设置 key=>value
+CacheBase::set('test', $arr);
+//获取缓存的key
+CacheBase::get('test');

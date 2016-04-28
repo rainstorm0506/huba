@@ -73,11 +73,11 @@
             <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
                     <td width="25%" rowspan="2"><img src="<?php echo A_IMG_URL;?>houtai/ico02.gif" width="35" height="35"/></td>
-                    <td width="75%" height="22" class="left-font01">您好，<span class="left-font02">king</span></td>
+                    <td width="75%" height="22" class="left-font01">您好，<span class="left-font02"><?php echo Yii::app()->user->name;?></span></td>
                 </tr>
                 <tr>
                     <td height="22" class="left-font01">
-                        [&nbsp;<a href="../login.html" target="_top" class="left-font01">退出</a>&nbsp;]
+                        [&nbsp;<a href="<?php echo $this->createUrl('site/logout');?>" target="_top" class="left-font01">退出</a>&nbsp;]
                     </td>
                 </tr>
             </table>
@@ -104,7 +104,7 @@
        cellspacing="0" class="left-table02">
     <tr>
         <td width="9%" height="20"><img id="xiaotu20" src="<?php echo A_IMG_URL;?>houtai/ico06.gif" width="8" height="12"/></td>
-        <td width="91%"><a href="addrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('20');">订单列表</a>
+        <td width="91%"><a href="<?php echo $this->createUrl('order/index');?>" target="right" class="left-font03" onClick="tupian('20');">订单列表</a>
         </td>
     </tr>
     <tr>
