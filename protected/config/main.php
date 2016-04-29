@@ -15,6 +15,7 @@ return array(
 	// autoloading model and component classes
 	'import'=>array(
 		'system.extension.huba.*',
+		//'system.extension.PHPExcel.*',
 		'application.models.*',
 		'application.components.*',
 	),

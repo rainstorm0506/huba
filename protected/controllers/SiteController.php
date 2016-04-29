@@ -28,17 +28,13 @@ class SiteController extends WebController
 	 */
 	public function actionIndex()
 	{
-//            $mobile = "18650215426";
-//            $sms_code = SmsNote::random();
-//            $res = SmsNote::send_sms($mobile,$sms_code);
-//            echo "<pre>";
-//            die(var_dump($res));
             if($this->isPost() && !empty($_POST)){
                 echo "<pre>";
                 die(var_dump($_POST));
             }
 		$this->render('index');
 	}
+        
 	/**
 	 * This is the action to handle external exceptions.
 	 */
