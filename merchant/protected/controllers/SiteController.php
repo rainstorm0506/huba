@@ -14,9 +14,7 @@ class SiteController extends MController
             if($this->isPost() && !empty($_POST['MLoginForm'])){
                 $form->attributes = $this->getPost('MLoginForm');
                 if($form->validate() && $form->login()){
-                    echo "成功!!";
-                    die();
-                    //$this->redirect($this->createUrl('site/home'));
+                    $this->redirect($this->createUrl('home/index'));                    
                 }
             }
             $this->renderPartial('login',array(
