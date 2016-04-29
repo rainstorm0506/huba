@@ -7,60 +7,76 @@
 class AsyncController extends WebController
 {
 	private $vxcode = array('vmember', 'venterprise', 'vmerchant', 'member' , 'merchant' , 'find');
-    # 短信验证码过期时间 , 5分钟
-    const SMSEXPIRE = 300;
+        # 短信验证码过期时间 , 5分钟
+        const SMSEXPIRE = 300;
 
-    private $sessKey = array(
-        1	=> 'sign',		#注册
-        2	=> 'find',		#找回密码
-        3	=> 'normal'	#正常情况发送短信
-    );
-    //异步 发送短信
-    public function actionSendSms()
-    {
-        $mobile = trim((string)$this->getPost("phone"));
-        $type = trim((string)$this->getPost("type"));
-
-        $sms_code = SmsNote::random();
-        $sessKey = $this->sessKey[$type];
-        $time    =  time();
-        /*******    测试代码(不发送短信)    ********/
-        if ((int)$this->getPost('test') === 1)
+        private $sessKey = array(
+            1	=> 'sign',		#注册
+            2	=> 'find',		#找回密码
+            3	=> 'normal'	#正常情况发送短信
+        );  
+        //异步 发送短信
+        public function actionSendSms()
         {
-            $session = Yii::app()->session;
-            $sx = array();
-            if (isset($session['smsCode']))
+            $mobile = trim((string)$this->getPost("phone"));
+            $type = trim((string)$this->getPost("type"));
+
+            $sms_code = SmsNote::random();
+            $sessKey = $this->sessKey[$type];
+            $time    =  time();
+            /*******    测试代码(不发送短信)    ********/
+            if ((int)$this->getPost('test') === 1)
             {
-                $sx = new ArrayObject($session['smsCode']);
-                $sx = $sx->getArrayCopy();
+                $session = Yii::app()->session;
+                $sx = array();
+                if (isset($session['smsCode']))
+                {
+                    $sx = new ArrayObject($session['smsCode']);
+                    $sx = $sx->getArrayCopy();
+                }
+
+                $sx[$sessKey] = array('phone'=>$mobile , 'verCode'=>$sms_code , 'sendTime'=>$time , 'expire'=>$time+self::SMSEXPIRE , 'verifyTime'=>0);
+                $session['smsCode'] = $sx;
+                $this->jsonOutput(0 , array('vcode' => $sms_code));
+                exit;
             }
+            $res = SmsNote::send_sms($mobile,$sms_code);    //发送短信 返回的码
+            if($res==2){ //短信平台 成功返回的状态值
+                $session = Yii::app()->session;
+                $sx = array();
+                if (isset($session['smsCode']))
+                {
+                    $sx = new ArrayObject($session['smsCode']);
+                    $sx = $sx->getArrayCopy();
+                }
 
-            $sx[$sessKey] = array('phone'=>$mobile , 'verCode'=>$sms_code , 'sendTime'=>$time , 'expire'=>$time+self::SMSEXPIRE , 'verifyTime'=>0);
-            $session['smsCode'] = $sx;
-            $this->jsonOutput(0 , array('vcode' => $sms_code));
-            exit;
+                $sx[$sessKey] = array('phone'=>$mobile , 'verCode'=>$sms_code , 'sendTime'=>$time , 'expire'=>$time+self::SMSEXPIRE , 'verifyTime'=>0);
+                $session['smsCode'] = $sx;
+                $this->jsonOutput(0 , array('vcode' => $sms_code));
+                exit;                
+            }else{
+                $this->jsonOutput(3 , "短信平台繁忙,请稍候再发!");
+                exit;                  
+            }
         }
-        //$res = SmsNote::send_sms($mobile,$sms_code);
+        //异步 验证短信验证码
+        public function actionCheckCode()
+        {
+            $code = trim((string)$this->getPost('sms_code'));
+            $type = trim((string)$this->getPost("type"));
+            $sessKey = $this->sessKey[$type];   //验证码的 类型
 
-    }
-    //异步 验证短信验证码
-    public function actionCheckCode()
-    {
-        $code = trim((string)$this->getPost('sms_code'));
-        $type = trim((string)$this->getPost("type"));
-        $sessKey = $this->sessKey[$type];   //验证码的 类型
-        
-        $session = Yii::app()->session;
+            $session = Yii::app()->session;
 
-        if(time() - $session['smsCode'][$sessKey]['sendTime']>self::SMSEXPIRE){
-            $this->jsonOutput(2,"短信验证码已经过期");
-        }else if($session['smsCode'][$sessKey]['verCode']!=$code){
-            $this->jsonOutput(1,"短信验证码不正确");
-        }else{
-            $this->jsonOutput(0);
+            if(time() - $session['smsCode'][$sessKey]['sendTime']>self::SMSEXPIRE){
+                $this->jsonOutput(2,"短信验证码已经过期");
+            }else if($session['smsCode'][$sessKey]['verCode']!=$code){
+                $this->jsonOutput(1,"短信验证码不正确");
+            }else{
+                $this->jsonOutput(0);
+            }
+            Yii::app()->end();
         }
-        Yii::app()->end();
-    }
 	//图形验证码
 	public function actionGetVcdoe()
 	{

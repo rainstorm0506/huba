@@ -108,7 +108,8 @@ should you have any questions.</p>
     $("#test_btn").click(function(){
         $.post(
             "<?php echo $this->createUrl('async/sendSms');?>",
-            {phone:"18650215426",type:3,test:1},
+            //{phone:"18650215426",type:3,test:1},
+            {phone:"18650215426",type:3},
             function(data){
                 console.log(typeof(data));
             }
